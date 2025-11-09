@@ -13,6 +13,7 @@
   --container: 1100px;
 }
 
+
 /* Body & gradient */
 body {
   margin: 0;
@@ -24,6 +25,7 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
 }
+
 
 body.dark {
   background: linear-gradient(135deg,
@@ -47,6 +49,8 @@ body.dark {
 
 /* Container */
 .container { width: 90%; max-width: var(--container); margin: 0 auto; }
+
+
 
 /* Header */
 .site-header {
@@ -173,6 +177,7 @@ body.dark .cards .card, body.dark .skill-groups article, body.dark .job { backgr
 .photo img { width:100%; height:100%; object-fit:cover; }
 .photo:hover { transform:scale(1.05); }
 
+
 /* Skill groups side by side */
 .skill-groups {
   display:flex;
@@ -181,6 +186,7 @@ body.dark .cards .card, body.dark .skill-groups article, body.dark .job { backgr
   justify-content:center;
 }
 .skill-groups article { flex: 1 1 200px; }
+
 
 /* Contact cards */
 .contact-cards {
@@ -212,9 +218,11 @@ body.dark .cards .card, body.dark .skill-groups article, body.dark .job { backgr
 body.dark .contact-card { background: rgba(40,40,60,0.7); }
 body.dark .contact-card:hover { background: var(--accent); }
 
+
 /* Footer */
 .site-footer { padding:20px 0; text-align:center; background: rgba(0,0,0,0.2); backdrop-filter:blur(6px); color:white; }
 body.dark .site-footer { background: rgba(20,30,40,0.8); color: #e6edf3; }
+
 
 /* Job dropdown */
 .job-dropdown { margin-top: 12px; }
@@ -268,6 +276,7 @@ body.dark .job-dropdown .job-content { background: rgba(30,30,50,0.7); }
   </nav>
 </header>
 
+
 <main class="container">
   <!-- About Section -->
   <section id="about" class="panel active">
@@ -279,6 +288,8 @@ body.dark .job-dropdown .job-content { background: rgba(30,30,50,0.7); }
       <div class="photo"><img src="gambar.jpg" alt="Profile"></div>
     </div>
   </section>
+
+
 
   <!-- Skills Section -->
   <section id="skills" class="panel">
@@ -337,6 +348,8 @@ body.dark .job-dropdown .job-content { background: rgba(30,30,50,0.7); }
   </div>
 </section>
 
+
+
   <!-- Education Section -->
   <section id="education" class="panel">
     <h2>Education</h2>
@@ -344,9 +357,10 @@ body.dark .job-dropdown .job-content { background: rgba(30,30,50,0.7); }
     <p> UiTM Kedah</p>
   </section>
 
+
+
   <!-- Contact Section -->
   <section id="contact" class="panel"> 
-
 
    <div class="contact-cards">
     <h2>Contact</h2>
@@ -354,10 +368,10 @@ body.dark .job-dropdown .job-content { background: rgba(30,30,50,0.7); }
      <a href="mailto:afdzalalif905@gmail.com" class="contact-card">
       <i class="fas fa-envelope"></i> Email
      </a>
-
       <a href="https://www.facebook.com/afdzal.alias" target="_blank" rel="noopener noreferrer" class="contact-card">
         <i class="fab fa-facebook-f"></i> Facebook
       </a>
+
 
       <a href="https://www.instagram.com/afdzal_alif_" target="_blank" rel="noopener noreferrer" class="contact-card">
         <i class="fab fa-instagram"></i> Instagram
@@ -373,6 +387,8 @@ body.dark .job-dropdown .job-content { background: rgba(30,30,50,0.7); }
 
     </div>
     </section>
+
+
 
   <!-- Footer -->
   <footer class="site-footer">
